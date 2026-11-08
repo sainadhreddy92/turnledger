@@ -1,0 +1,9 @@
+{
+  "name": "turnledger",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A revisioned journal for conversation turns",
+  "exports": "./src/index.ts",
+  "engines": { "node": ">=24" },
+  "scripts": { "test": "node --test test/*.test.ts" }
+}
